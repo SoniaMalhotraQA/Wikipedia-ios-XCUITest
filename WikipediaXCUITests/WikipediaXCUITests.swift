@@ -27,12 +27,8 @@ class WikipediaXCUITests: BaseXCUITest {
         XCTAssertTrue( BaseXCUITest.getResultCollection().staticTexts.element(boundBy: 3).waitForExistence(timeout: 1))
         BaseXCUITest.getResultCollection().staticTexts.element(boundBy: 3).tap()
         BaseXCUITest.backOnNavigationBar().tap()
-        
-        //BaseXCUITest.searchWikipediaOnNavigationBar().tap()
-        WikipediaScreen.cancel.element.tap()
-        
-        WikipediaScreen.searchWikipediaField.element.tap()
-    
+        WikipediaScreen.cancel.element.tap()        
+        WikipediaScreen.searchWikipediaField.element.tap()    
         BaseXCUITest.getResultCollection().staticTexts.element(boundBy: 2).waitForExistence(timeout: 1)
         XCTAssertEqual(BaseXCUITest.getResultCollection().staticTexts.element(boundBy: 2).label, searchText)
         }
