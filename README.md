@@ -27,7 +27,7 @@ Test Suite 'All tests' passed at 2021-07-11 22:02:48.594.
 2021-07-11 22:02:48.868 xcodebuild[67095:637892] [MT] IDETestOperationsObserverDebug: 57.147 sec, +57.147 sec -- end
 
 Test session results, code coverage, and logs:
-	/Users/tandorah/Library/Developer/Xcode/DerivedData/Wikipedia-coafzvcpapoexuadufdahqywjqwu/Logs/Test/Test-Wikipedia-2021.07.11_9-59-07-+0200.xcresult
+	Library/Developer/Xcode/DerivedData/Wikipedia-coafzvcpapoexuadufdahqywjqwu/Logs/Test/Test-Wikipedia-2021.07.11_9-59-07-+0200.xcresult
 
 ** TEST SUCCEEDED **
 ```
